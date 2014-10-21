@@ -1,3 +1,13 @@
+'''
+
+
+How to Run:
+import lock_n_hide_examples
+
+lock_n_hide_examples.selected_lock_n_hide(['tx', 'ty', 'tz', 'sx', 'sy', 'sz'])
+
+'''
+
 import pymel.core as pm
 
 def selected_lock_n_hide(attrs=[]):
